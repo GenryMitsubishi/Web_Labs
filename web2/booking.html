@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Забронируйте свое путешествие!</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Забронируйте свое путешествие!</h1>
+    <form action="#">
+        <label for="name">Ваше имя:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Ваш email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="trip-type">Тип путешествия:</label><br>
+        <select id="trip-type" name="trip-type">
+            <option value="excursion">Экскурсионный тур</option>
+            <option value="beach" selected>Пляжный отдых</option>
+            <option value="adventure">Приключения</option>
+            <option value="cruise">Круиз</option>
+        </select><br><br>
+
+        <label for="travelers">Количество путешественников:</label><br>
+        <input type="number" id="travelers" name="travelers" min="1" max="10" step="1"><br><br>
+
+        <label for="start-date">Дата начала путешествия:</label><br>
+        <input type="date" id="start-date" name="start-date"><br><br>
+
+        <label for="wishes">Ваши пожелания:</label><br>
+        <textarea id="wishes" name="wishes" rows="4" cols="50"></textarea><br><br>
+
+        <input type="checkbox" id="consent" name="consent">
+        <label for="consent">Я согласен на обработку моих персональных данных.</label><br><br>
+
+        <button type="submit">Забронировать</button>
+    </form>
+</body>
+</html> 

@@ -1,0 +1,79 @@
+body {
+    background: #f0f4f8;
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+.card {
+    width: 350px;
+    margin: 40px auto;
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+    padding: 24px 28px;
+    border: 1px solid #e0e0e0;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 18px;
+}
+
+.avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #0077ff;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 2em;
+    color: #0077ff;
+    margin: 0;
+}
+
+.nickname {
+    color: #555;
+    font-size: 1.1em;
+    margin-bottom: 8px;
+}
+
+section {
+    margin-bottom: 14px;
+}
+
+h2 {
+    font-size: 1.1em;
+    color: #333;
+    margin-bottom: 6px;
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 2px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    margin-bottom: 5px;
+    padding-left: 0;
+    font-size: 1em;
+    color: #222;
+}
+
+.about p {
+    font-size: 0.98em;
+    color: #444;
+    line-height: 1.4;
+    margin: 0;
+}
+
+@media (max-width: 400px) {
+    .card {
+        width: 98%;
+        padding: 10px;
+    }
+}
