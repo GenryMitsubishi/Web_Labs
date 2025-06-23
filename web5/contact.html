@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакты - Дедпул</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="main-header">
+        <nav class="main-nav">
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="about.html">О себе</a></li>
+                <li><a href="skills.html">Навыки</a></li>
+                <li><a href="achievements.html">Достижения</a></li>
+                <li><a href="contact.html" class="active">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main-content">
+        <article class="contact-page">
+            <header class="page-header">
+                <h1>Контакты</h1>
+                <p class="subtitle">Свяжитесь с самым безумным наёмником</p>
+            </header>
+
+            <div class="contact-container">
+                <section class="contact-info">
+                    <h2>Контактная информация</h2>
+                    <div class="contact-grid">
+                        <div class="contact-item">
+                            <div class="contact-details">
+                                <h3>Email</h3>
+                                <p>pool@Deadpool.com</p>
+                                <p>deadpool.wilson@merc.com</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-details">
+                                <h3>Телефон</h3>
+                                <p>+7 (924) 164-77-85</p>
+                                <p>+1 (555) 666-13-37</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-details">
+                                <h3>Адрес</h3>
+                                <p>Массачусетс, США</p>
+                                <p>Улица Наёмников, 42</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-details">
+                                <h3>Время работы</h3>
+                                <p>24/7 (когда не сплю)</p>
+                                <p>Экстренные вызовы: всегда</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="social-media">
+                    <h2>Социальные сети</h2>
+                    <div class="social-grid">
+                        <a href="#" class="social-item twitter">
+                            <div class="social-info">
+                                <h3>Twitter</h3>
+                                <p>@Deadpool_Merc</p>
+                            </div>
+                        </a>
+
+                        <a href="#" class="social-item instagram">
+                            <div class="social-info">
+                                <h3>Instagram</h3>
+                                <p>@deadpool_official</p>
+                            </div>
+                        </a>
+
+                        <a href="#" class="social-item youtube">
+                            <div class="social-info">
+                                <h3>YouTube</h3>
+                                <p>Deadpool Channel</p>
+                            </div>
+                        </a>
+
+                        <a href="#" class="social-item linkedin">
+                            <div class="social-info">
+                                <h3>LinkedIn</h3>
+                                <p>Wade Wilson - Mercenary</p>
+                            </div>
+                        </a>
+                    </div>
+                </section>
+
+                <section class="contact-form">
+                    <h2>Форма обратной связи</h2>
+                    <form class="feedback-form">
+                        <div class="form-group">
+                            <label for="name">Имя *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">Тема</label>
+                            <select id="subject" name="subject">
+                                <option value="">Выберите тему</option>
+                                <option value="job">Заказ наёмника</option>
+                                <option value="partnership">Сотрудничество</option>
+                                <option value="fan">Фанатское письмо</option>
+                                <option value="complaint">Жалоба</option>
+                                <option value="other">Другое</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Сообщение *</label>
+                            <textarea id="message" name="message" rows="5" required placeholder="Расскажите, что вам нужно..."></textarea>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="urgent" id="urgent">
+                                <span class="checkmark"></span>
+                                Срочный заказ (дополнительная плата)
+                            </label>
+                        </div>
+
+                        <button type="submit" class="submit-btn">Отправить сообщение</button>
+                    </form>
+                </section>
+
+                <section class="location">
+                    <h2>Местоположение</h2>
+                    <div class="map-container">
+                        <div class="map-placeholder">
+                            <h3>Карта местоположения</h3>
+                            <p>Массачусетс, США</p>
+                            <p>Координаты: 42.3601° N, 71.0589° W</p>
+                            <div class="map-note">
+                                <p>Точное местоположение засекречено</p>
+                                <p>Для встречи свяжитесь предварительно</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </article>
+    </main>
+
+    <footer class="main-footer">
+        <p>&copy; 2025 Дедпул. Все права защищены (или нет)</p>
+    </footer>
+</body>
+</html> 
