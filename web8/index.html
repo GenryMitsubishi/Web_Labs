@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Выбери правильный HEX-код</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Выбери правильный HEX-код для цвета</h1>
+    <div class="color-blocks">
+        <!-- Первый блок: правильная комбинация -->
+        <div class="color-block">
+            <div class="color-square" style="background: #4CAF50;"></div>
+            <div class="hex-options">
+                <a href="#success">#4CAF50</a>
+                <a href="#error">#FF5722</a>
+                <a href="#error">#2196F3</a>
+                <a href="#error">#FFC107</a>
+            </div>
+        </div>
+        <!-- Второй блок -->
+        <div class="color-block">
+            <div class="color-square" style="background: #FF5722;"></div>
+            <div class="hex-options">
+                <a href="#error">#4CAF50</a>
+                <a href="#error">#FF5722</a>
+                <a href="#error">#2196F3</a>
+                <a href="#error">#FFC107</a>
+            </div>
+        </div>
+        <!-- Третий блок -->
+        <div class="color-block">
+            <div class="color-square" style="background: #2196F3;"></div>
+            <div class="hex-options">
+                <a href="#error">#4CAF50</a>
+                <a href="#error">#FF5722</a>
+                <a href="#error">#2196F3</a>
+                <a href="#error">#FFC107</a>
+            </div>
+        </div>
+        <!-- Четвертый блок -->
+        <div class="color-block">
+            <div class="color-square" style="background: #FFC107;"></div>
+            <div class="hex-options">
+                <a href="#error">#4CAF50</a>
+                <a href="#error">#FF5722</a>
+                <a href="#error">#2196F3</a>
+                <a href="#error">#FFC107</a>
+            </div>
+        </div>
+    </div>
+    <div id="success" class="result success">
+        <h2>Поздравляем!</h2>
+        <p>Вы выбрали правильный HEX-код!</p>
+        <a href="#" class="back">Попробовать ещё раз</a>
+    </div>
+    <div id="error" class="result error">
+        <h2>Ошибка!</h2>
+        <p>Вы выбрали неправильный HEX-код. Попробуйте снова!</p>
+        <a href="#" class="back">Вернуться</a>
+    </div>
+</body>
+</html> 
