@@ -144,3 +144,48 @@ button {
     font-weight: 100;
 	align-self: flex-end;
 }
+
+@media (max-width: 900px) {
+    .main-form {
+        width: 95%;
+        padding: 20px 10px;
+        min-height: 400px;
+    }
+    .form-content {
+        flex-direction: column;
+        gap: 30px;
+        align-items: stretch;
+    }
+    .form-left, .form-right {
+        min-width: unset;
+        max-width: unset;
+        width: 100%;
+    }
+    textarea {
+        width: 100%;
+    }
+}
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 32px;
+    }
+    .main-form {
+        width: 100%;
+        padding: 8px 2px;
+        min-height: unset;
+    }
+    .input-text, .select-country, textarea, button {
+        width: 100%;
+        font-size: 18px;
+    }
+    .label, .checkboxes label, .gender label {
+        font-size: 18px;
+    }
+    .form-content {
+        gap: 10px;
+    }
+    textarea {
+        height: 60px;
+    }
+}

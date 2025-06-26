@@ -77,3 +77,34 @@ ul li {
         padding: 10px;
     }
 }
+
+@media (max-width: 900px) {
+    .card {
+        width: 98vw;
+        padding: 14px 4vw;
+    }
+    h1 {
+        font-size: 1.3em;
+    }
+    .avatar {
+        width: 70px;
+        height: 70px;
+    }
+}
+
+@media (max-width: 600px) {
+    .card {
+        width: 100vw;
+        padding: 6px 1vw;
+    }
+    h1 {
+        font-size: 1em;
+    }
+    .nickname, h2, ul li, .about p {
+        font-size: 0.9em;
+    }
+    .avatar {
+        width: 50px;
+        height: 50px;
+    }
+}

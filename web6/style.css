@@ -97,3 +97,38 @@ p {
     margin-right: auto;
     box-shadow: 0 2px 8px rgba(44, 62, 80, 0.07);
 }
+
+@media (max-width: 900px) {
+    .doors {
+        width: 98vw;
+        gap: 16px;
+    }
+    .door {
+        width: 80px;
+        height: 140px;
+    }
+    .result {
+        width: 90vw;
+    }
+}
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 1.3rem;
+    }
+    .doors {
+        flex-direction: column;
+        width: 100vw;
+        gap: 10px;
+        align-items: center;
+    }
+    .door {
+        width: 60px;
+        height: 90px;
+    }
+    .result {
+        width: 98vw;
+        font-size: 1rem;
+        padding: 8px 0;
+    }
+}

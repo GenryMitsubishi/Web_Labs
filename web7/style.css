@@ -56,4 +56,41 @@ body {
 }
 #restart:hover {
     background: #388e3c;
+}
+@media (max-width: 900px) {
+    #game {
+        padding: 16px 4vw;
+    }
+    #board {
+        grid-template-columns: repeat(3, 40px);
+        grid-template-rows: repeat(3, 40px);
+        gap: 5px;
+    }
+    .cell {
+        width: 40px;
+        height: 40px;
+        font-size: 1.5rem;
+    }
+}
+@media (max-width: 600px) {
+    #game {
+        padding: 6px 1vw;
+    }
+    #board {
+        grid-template-columns: repeat(3, 28px);
+        grid-template-rows: repeat(3, 28px);
+        gap: 3px;
+    }
+    .cell {
+        width: 28px;
+        height: 28px;
+        font-size: 1rem;
+    }
+    #message {
+        font-size: 1rem;
+    }
+    #restart {
+        font-size: 0.9rem;
+        padding: 6px 10px;
+    }
 } 
