@@ -102,6 +102,8 @@ p {
     .doors {
         width: 98vw;
         gap: 16px;
+        justify-content: center;
+        align-items: center;
     }
     .door {
         width: 80px;
@@ -109,18 +111,27 @@ p {
     }
     .result {
         width: 90vw;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 }
 
 @media (max-width: 600px) {
     h1 {
         font-size: 1.3rem;
+        text-align: center;
     }
     .doors {
         flex-direction: column;
         width: 100vw;
         gap: 10px;
         align-items: center;
+        justify-content: center;
     }
     .door {
         width: 60px;
@@ -130,5 +141,12 @@ p {
         width: 98vw;
         font-size: 1rem;
         padding: 8px 0;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 }
