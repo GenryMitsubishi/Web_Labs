@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Интерактивная галерея</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Галерея изображений</h1>
+        <div id="filter-buttons"></div>
+    </header>
+    <main>
+        <section id="gallery" class="gallery"></section>
+        <section id="add-form-section">
+            <h2>Добавить изображение</h2>
+            <form id="add-image-form">
+                <input type="text" id="img-title" placeholder="Название" required>
+                <input type="text" id="img-desc" placeholder="Описание" required>
+                <input type="text" id="img-tags" placeholder="Теги (через запятую)" required>
+                <input type="url" id="img-url" placeholder="URL изображения" required>
+                <button type="submit">Добавить</button>
+            </form>
+            <input type="file" id="json-upload" accept="application/json">
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html> 
